@@ -5,7 +5,7 @@ In App.js, as states I have pokemonData, nextUrl, prevUrl, loading. In useEffect
 After that we have 2 buttons; prev and next right above 'grid-container' div inside return. When we click on one of them, 'next' or 'prev' function fires based on the button you pressed. What each function does is, simply sets loading state to true, fetch next url's data with axios, send returning datas to 'loadingPokemon2()' setting nextUrl and prevUrl again and setting loading back to false.  
 
 You may reach to website that I deployed on Firebase.
-https://react-pokemonapi.web.app/
+## https://react-pokemonapi.web.app/
 
 
 
